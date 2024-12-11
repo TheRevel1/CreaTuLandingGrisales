@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div style={{ background: '#434747'}}>
       <NavBar />
-      <ItemListContainer style={{color: 'white'}} greeting="¡Bienvenido a Vicious Library!" />
+      <ItemListContainer style={{color: 'white' , }} greeting="¡Bienvenido a Vicious Library!" />
     </div>
   )
 }
