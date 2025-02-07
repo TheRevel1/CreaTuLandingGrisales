@@ -8,7 +8,7 @@ const Item = ({ id, nombre, precio, imagen }) => {
             borderRadius: '10px',
             padding: '1rem',
             margin: '1rem',
-            width: '250px',
+            width: '350px',
             backgroundColor: '#1e1e1e',
             color: 'white',
             boxShadow: '0 4px 8px rgba(0,0,0,0.3)',
@@ -17,10 +17,10 @@ const Item = ({ id, nombre, precio, imagen }) => {
             <img
                 src={imagen}
                 alt={nombre}
-                style={{ borderRadius: '8px', width: '100%', height: '150px', objectFit: 'cover' }}
+                style={{ borderRadius: '8px', width: '100%', height: '350px', objectFit: 'cover' }}
             />
             <h3>{nombre}</h3>
-            <p><strong>Precio:</strong> ${precio}</p>
+            <p>${precio}</p>
             <Link to={`/producto/${id}`} style={{
                 textDecoration: 'none',
                 color: '#fff',
